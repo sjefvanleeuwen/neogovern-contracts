@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{990E74AE-F22
 		doc\img\neogovern.png = doc\img\neogovern.png
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoGovern.NeonGovernContractsTests", "NeoGovern.NeonGovernContractsTests\NeoGovern.NeonGovernContractsTests.csproj", "{D694084D-6359-4A35-A45F-8DAF2D5800F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,10 @@ Global
 		{FC674361-F4CA-4A8C-9C08-868AEDCBBEC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC674361-F4CA-4A8C-9C08-868AEDCBBEC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC674361-F4CA-4A8C-9C08-868AEDCBBEC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D694084D-6359-4A35-A45F-8DAF2D5800F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D694084D-6359-4A35-A45F-8DAF2D5800F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D694084D-6359-4A35-A45F-8DAF2D5800F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D694084D-6359-4A35-A45F-8DAF2D5800F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
