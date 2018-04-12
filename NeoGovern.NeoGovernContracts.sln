@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoGovern.NeoGovernContracts", "NeoGovern.NeoGovernContracts\NeoGovern.NeoGovernContracts.csproj", "{FC674361-F4CA-4A8C-9C08-868AEDCBBEC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CFDC2916-308B-49CC-954C-F2A24850A861}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{F49B788A-9800-489E-9C8E-9C5B32C5CD6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{990E74AE-F222-4721-B088-B654B07C6F1B}"
+	ProjectSection(SolutionItems) = preProject
+		doc\img\neogovern.png = doc\img\neogovern.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC674361-F4CA-4A8C-9C08-868AEDCBBEC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC674361-F4CA-4A8C-9C08-868AEDCBBEC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC674361-F4CA-4A8C-9C08-868AEDCBBEC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC674361-F4CA-4A8C-9C08-868AEDCBBEC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{990E74AE-F222-4721-B088-B654B07C6F1B} = {F49B788A-9800-489E-9C8E-9C5B32C5CD6D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73534078-D363-4E52-A5DB-77F7D781514A}
+	EndGlobalSection
+EndGlobal
