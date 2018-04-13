@@ -1,5 +1,5 @@
-﻿using System.Linq;
-using System.Text;
+﻿using System.IO;
+using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Neo.VM;
 
@@ -11,10 +11,10 @@ namespace NeoGovern.NeonGovernContractsTests
         [TestMethod]
         public void ShouldReturn24WhenMultiplationOf3Times4Times2()
         {
-            const string abi = "압汫歶刀쑺癬八穒泄歶剒쑺污歶쌀癬八ꃃ癬卫穒泄歶썓≤氀歶쌀癬八泃歶썒籡㙥销癬呫穒拄\"癬k泃歶썑籡ᱥ氀歶썒沕歶剔쑺͢氀歶썔污晵앓汫歶刀쑺癬八穒懄癬k泃歶썑沕歶剒쑺͢氀歶썒污晵";
-
+            //const string abi = "압汫歶刀쑺癬八穒泄歶剒쑺污歶쌀癬八ꃃ癬卫穒泄歶썓≤氀歶쌀癬八泃歶썒籡㙥销癬呫穒拄\"癬k泃歶썑籡ᱥ氀歶썒沕歶剔쑺͢氀歶썔污晵앓汫歶刀쑺癬八穒懄癬k泃歶썑沕歶剒쑺͢氀歶썒污晵";
             var engine = new ExecutionEngine(null, null);
-            engine.LoadScript(Encoding.Unicode.GetBytes(abi));
+            //engine.LoadScript(Encoding.Unicode.GetBytes(abi));
+            engine.LoadScript(File.ReadAllBytes(@"..\..\..\NeoGovern.NeoGovernContracts\bin\Debug\NeoGovern.NeoGovernContracts.avm"));
 
             using (var sb = new ScriptBuilder())
             {
